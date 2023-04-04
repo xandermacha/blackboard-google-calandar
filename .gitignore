@@ -1,0 +1,9 @@
+#api creds
+token.json
+credentials.json
+#pycache and env
+/__pycache__
+/venv
+
+#temp files
+tempCodeRunnerFile.py
