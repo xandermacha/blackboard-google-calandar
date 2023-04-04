@@ -5,7 +5,7 @@ def clean_list(fname):
     temp_file = "temp.txt"
 
     # removes beginning and endlines
-    words = ('Upcoming', 'Show' )
+    words = ('Upcoming', 'Show', )
     with open(original_file, "r") as input:
         with open("temp.txt", "w") as output:
             # iterate all lines from file
@@ -16,7 +16,7 @@ def clean_list(fname):
     os.replace('temp.txt', fname)
 
                     
-    string_to_delete = ['spring', '2023', 'Due: ', 'Due: ', 'Due Date: ', ',']
+    string_to_delete = ['spring', '2023', 'Due: ', 'Due: ', 'Due Date: ', ',', 'Event', 'Date:', 'Event:']
     with open(original_file, "r") as input:
         with open(temp_file, "w") as output:
             for line in input:

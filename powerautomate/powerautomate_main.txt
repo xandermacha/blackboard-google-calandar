@@ -1,0 +1,2 @@
+WebAutomation.LaunchChrome.LaunchChrome Url: $'''https://ccsu.blackboard.com/ultra/stream''' WindowState: WebAutomation.BrowserWindowState.Normal ClearCache: False ClearCookies: False WaitForPageToLoadTimeout: 60 Timeout: 60 BrowserInstance=> Browser
+CALL Nav
